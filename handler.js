@@ -1,6 +1,6 @@
-import helloFunction from "./src/handlers/hello";
+import hello from "./src/handlers/hello";
 
 /**
  *  Handlers
  */
-export const hello = helloFunction;
+export { hello };
