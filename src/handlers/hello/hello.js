@@ -10,7 +10,7 @@ const hello = async (event, context, callback) => {
     }),
   };
 
-  callback(null, response);
+  return response
 };
 
 const message = ({ time, ...rest }) => new Promise((resolve, reject) => 
